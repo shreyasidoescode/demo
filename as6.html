@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login Page</title>
+</head>
+<body bgcolor="pink">
+<h1>Welcome to Login Page</h1>
+<Table>
+<tr><td>Username</td><td><input type=text id="userId"></td></tr>
+<tr><td>Password</td><td><input type=password id="pwd"></td></tr>
+<tr><td></td><td><button type="button" onclick="verifyDetails ()">Submit</button></td></tr>
+</Table>
+<p id="message"></p>
+<script>
+function verifyDetails ()
+{
+var userid=document.getElementById("userId").value;
+var password=document.getElementById("pwd").value;
+if (userid==="shreyasi"&&password==="123@")
+{
+alert ("Valid User");
+document.getElementById("message").innerHTML = "Valid User";
+}
+else
+{
+alert("Invalid User");
+document.getElementById("message").innerHTML = "Invalid User";
+}
+}
+</script>
+</body>
+</html>

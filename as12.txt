@@ -1,0 +1,16 @@
+git init
+Add the project files:
+git add .
+Create the first commit:
+git commit -m "Initial commit"
+Step 3: Create a GitHub Repository
+1. Log in to GitHub.
+2. Create a new repository.
+3. Give it a suitable name, such as MyWebApp.
+4. Copy the repository URL.
+Connect the local project to GitHub:
+git remote add origin <GitHub-Repository-URL>
+Push the project:
+git branch -M main
+git push -u origin main
+The web application files should now be visible in the GitHub repository. 

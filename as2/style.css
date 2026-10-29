@@ -1,0 +1,33 @@
+body {
+background-color: #e6f2ff;
+font-family: Arial, sans-serif;
+padding: 20px;
+margin: 0;
+}
+* {
+box-sizing: border-box;
+}
+nav {
+margin-bottom: 20px;
+}
+nav a {
+margin-right: 15px;
+}
+section, header {
+border: 1px solid #000000;
+padding: 15px;
+margin-bottom: 20px;
+background-color: #ffffff;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+}
+table, th, td {
+border: 1px solid #000000;
+padding: 8px;
+}
+@media (max-width: 600px) {
+ .skills-list { justify-content: center; }
+ table, thead, tbody, th, td, tr { display: block; }
+}
