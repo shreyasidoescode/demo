@@ -1,0 +1,5 @@
+mongosh
+use collegeDB
+show dbs
+db
+db.dropDatabase()
